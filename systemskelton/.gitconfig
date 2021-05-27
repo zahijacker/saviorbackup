@@ -1,0 +1,7 @@
+[user]
+	email = zahijacker@gmail.com
+	name = zahijacker
+[color]
+	ui = true
+[core]
+	editor = emacs

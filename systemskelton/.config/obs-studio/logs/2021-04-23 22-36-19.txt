@@ -1,0 +1,185 @@
+10:36:19 PM.477: CPU Name: Intel(R) Xeon(R) CPU           W3520  @ 2.67GHz
+10:36:19 PM.477: CPU Speed: 2824.770MHz
+10:36:19 PM.494: Physical Cores: 4, Logical Cores: 8
+10:36:19 PM.494: Physical Memory: 7936MB Total, 5110MB Free
+10:36:19 PM.494: Kernel Version: Linux 5.11.16-arch1-1
+10:36:19 PM.494: Distribution: "Arch Linux" Unknown
+10:36:19 PM.494: Session Type: tty
+10:36:19 PM.495: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.11
+10:36:19 PM.496: Portable mode: false
+10:36:19 PM.563: OBS 26.1.2-2 (linux)
+10:36:19 PM.563: ---------------------------------
+10:36:19 PM.564: ---------------------------------
+10:36:19 PM.564: audio settings reset:
+10:36:19 PM.564: 	samples per sec: 48000
+10:36:19 PM.564: 	speakers:        2
+10:36:19 PM.566: ---------------------------------
+10:36:19 PM.566: Initializing OpenGL...
+10:36:19 PM.692: Loading up OpenGL on adapter NVIDIA Corporation GeForce GTX 560/PCIe/SSE2
+10:36:19 PM.692: OpenGL loaded successfully, version 3.3.0 NVIDIA 390.141, shading language 3.30 NVIDIA via Cg compiler
+10:36:19 PM.781: ---------------------------------
+10:36:19 PM.781: video settings reset:
+10:36:19 PM.781: 	base resolution:   1680x1050
+10:36:19 PM.781: 	output resolution: 1120x700
+10:36:19 PM.781: 	downscale filter:  Bicubic
+10:36:19 PM.781: 	fps:               30/1
+10:36:19 PM.781: 	format:            NV12
+10:36:19 PM.781: 	YUV mode:          709/Partial
+10:36:19 PM.781: NV12 texture support not available
+10:36:19 PM.782: Audio monitoring device:
+10:36:19 PM.782: 	name: Default
+10:36:19 PM.782: 	id: default
+10:36:19 PM.782: ---------------------------------
+10:36:19 PM.784: Failed to load 'en-US' text for module: 'decklink-captions.so'
+10:36:19 PM.785: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+10:36:19 PM.908: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+10:36:19 PM.908: No blackmagic support
+10:36:19 PM.930: v4l2loopback not installed, virtual camera disabled
+10:36:19 PM.954: NVENC supported
+10:36:19 PM.955: FFMPEG VAAPI supported
+10:36:19 PM.957: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+10:36:19 PM.957: 
+10:36:19 PM.957: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+10:36:19 PM.965: VLC found, VLC video source enabled
+10:36:19 PM.965: ---------------------------------
+10:36:19 PM.965:   Loaded Modules:
+10:36:19 PM.965:     vlc-video.so
+10:36:19 PM.965:     text-freetype2.so
+10:36:19 PM.965:     rtmp-services.so
+10:36:19 PM.965:     obs-x264.so
+10:36:19 PM.965:     obs-transitions.so
+10:36:19 PM.965:     obs-outputs.so
+10:36:19 PM.965:     obs-filters.so
+10:36:19 PM.965:     obs-ffmpeg.so
+10:36:19 PM.965:     linux-v4l2.so
+10:36:19 PM.965:     linux-pulseaudio.so
+10:36:19 PM.965:     linux-jack.so
+10:36:19 PM.965:     linux-decklink.so
+10:36:19 PM.965:     linux-capture.so
+10:36:19 PM.965:     linux-alsa.so
+10:36:19 PM.965:     image-source.so
+10:36:19 PM.965:     frontend-tools.so
+10:36:19 PM.965:     decklink-ouput-ui.so
+10:36:19 PM.965:     decklink-captions.so
+10:36:19 PM.965: ---------------------------------
+10:36:19 PM.965: ==== Startup complete ===============================================
+10:36:19 PM.969: No scene file found, creating default scene
+10:36:19 PM.970: All scene data cleared
+10:36:19 PM.970: ------------------------------------------------
+10:36:19 PM.977: pulse-input: Server name: 'pulseaudio 14.2'
+10:36:19 PM.977: pulse-input: Audio format: s16le, 48000 Hz, 2 channels
+10:36:19 PM.977: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+10:36:19 PM.977: Switched to scene 'Scene'
+10:36:19 PM.977: Failed to glob scene collections
+10:36:22 PM.107: [rtmp-services plugin] Successfully updated file 'services.json' (version 171)
+10:36:22 PM.107: [rtmp-services plugin] Successfully updated package (version 171)
+10:37:23 PM.367: 
+10:37:23 PM.367: ==== Auto-config wizard testing commencing ======
+
+10:37:31 PM.623: ---------------------------------
+10:37:31 PM.623: video settings reset:
+10:37:31 PM.623: 	base resolution:   1680x1050
+10:37:31 PM.623: 	output resolution: 1152x720
+10:37:31 PM.623: 	downscale filter:  Bicubic
+10:37:31 PM.623: 	fps:               30/1
+10:37:31 PM.623: 	format:            NV12
+10:37:31 PM.623: 	YUV mode:          709/Partial
+10:37:31 PM.623: NV12 texture support not available
+10:37:31 PM.626: 
+10:37:31 PM.626: ==== Auto-config wizard testing stopping ========
+
+10:38:03 PM.039: xshm-input: Geometry 1680x1050 @ 0,0
+10:38:03 PM.042: User added source 'Screen Capture (XSHM)' (xshm_input) to scene 'Scene'
+10:38:17 PM.170: ---------------------------------
+10:38:17 PM.171: [NVENC encoder: 'simple_h264_recording'] settings:
+10:38:17 PM.171: 	rate_control: CQP
+10:38:17 PM.171: 	bitrate:      0
+10:38:17 PM.171: 	cqp:          20
+10:38:17 PM.171: 	keyint:       250
+10:38:17 PM.171: 	preset:       hq
+10:38:17 PM.171: 	profile:      high
+10:38:17 PM.171: 	width:        1152
+10:38:17 PM.171: 	height:       720
+10:38:17 PM.171: 	2-pass:       false
+10:38:17 PM.171: 	b-frames:     2
+10:38:17 PM.171: 	GPU:          0
+10:38:17 PM.171: 
+10:38:17 PM.193: [NVENC encoder: 'simple_h264_recording'] Failed to open NVENC codec: Function not implemented
+10:38:52 PM.135: Settings changed (outputs)
+10:38:52 PM.135: ------------------------------------------------
+10:38:54 PM.775: ---------------------------------
+10:38:54 PM.775: [NVENC encoder: 'simple_h264_recording'] settings:
+10:38:54 PM.775: 	rate_control: CQP
+10:38:54 PM.775: 	bitrate:      0
+10:38:54 PM.775: 	cqp:          20
+10:38:54 PM.775: 	keyint:       250
+10:38:54 PM.775: 	preset:       hq
+10:38:54 PM.775: 	profile:      high
+10:38:54 PM.775: 	width:        1152
+10:38:54 PM.775: 	height:       720
+10:38:54 PM.775: 	2-pass:       false
+10:38:54 PM.775: 	b-frames:     2
+10:38:54 PM.775: 	GPU:          0
+10:38:54 PM.775: 
+10:38:54 PM.778: [NVENC encoder: 'simple_h264_recording'] Failed to open NVENC codec: Function not implemented
+10:40:23 PM.032: ---------------------------------
+10:40:23 PM.032: video settings reset:
+10:40:23 PM.032: 	base resolution:   1680x1050
+10:40:23 PM.032: 	output resolution: 1680x1050
+10:40:23 PM.032: 	downscale filter:  Bicubic
+10:40:23 PM.032: 	fps:               30/1
+10:40:23 PM.032: 	format:            NV12
+10:40:23 PM.032: 	YUV mode:          709/Partial
+10:40:23 PM.032: NV12 texture support not available
+10:40:23 PM.033: Settings changed (outputs, video)
+10:40:23 PM.033: ------------------------------------------------
+10:40:25 PM.208: ---------------------------------
+10:40:25 PM.208: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+10:40:25 PM.208: [x264 encoder: 'simple_h264_recording'] profile: high
+10:40:25 PM.210: [x264 encoder: 'simple_h264_recording'] settings:
+10:40:25 PM.210: 	rate_control: CRF
+10:40:25 PM.210: 	bitrate:      0
+10:40:25 PM.210: 	buffer size:  0
+10:40:25 PM.210: 	crf:          23
+10:40:25 PM.210: 	fps_num:      30
+10:40:25 PM.210: 	fps_den:      1
+10:40:25 PM.210: 	width:        1680
+10:40:25 PM.210: 	height:       1050
+10:40:25 PM.210: 	keyint:       250
+10:40:25 PM.210: 
+10:40:25 PM.227: ---------------------------------
+10:40:25 PM.227: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+10:40:25 PM.227: 
+10:40:25 PM.255: ==== Recording Start ===============================================
+10:40:25 PM.255: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/savior/2021-04-23 22-40-25.flv'...
+10:41:23 PM.648: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/savior/2021-04-23 22-40-25.flv' stopped
+10:41:23 PM.648: Output 'simple_file_output': stopping
+10:41:23 PM.648: Output 'simple_file_output': Total frames output: 1724
+10:41:23 PM.648: Output 'simple_file_output': Total drawn frames: 1752
+10:41:23 PM.648: ==== Recording Stop ================================================
+10:43:20 PM.157: User switched to scene 'Scene'
+10:43:20 PM.166: User switched to scene 'Scene'
+10:43:29 PM.784: ---------------------------------
+10:43:29 PM.784: [x264 encoder: 'simple_h264_recording'] preset: veryfast
+10:43:29 PM.784: [x264 encoder: 'simple_h264_recording'] profile: high
+10:43:29 PM.784: [x264 encoder: 'simple_h264_recording'] settings:
+10:43:29 PM.784: 	rate_control: CRF
+10:43:29 PM.784: 	bitrate:      0
+10:43:29 PM.784: 	buffer size:  0
+10:43:29 PM.784: 	crf:          23
+10:43:29 PM.784: 	fps_num:      30
+10:43:29 PM.784: 	fps_den:      1
+10:43:29 PM.784: 	width:        1680
+10:43:29 PM.784: 	height:       1050
+10:43:29 PM.784: 	keyint:       250
+10:43:29 PM.784: 
+10:43:29 PM.792: ---------------------------------
+10:43:29 PM.793: [FFmpeg aac encoder: 'simple_aac_recording'] bitrate: 192, channels: 2, channel_layout: 3
+10:43:29 PM.793: 
+10:43:29 PM.797: ==== Recording Start ===============================================
+10:43:29 PM.797: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/savior/2021-04-23 22-43-29.flv'...
+10:43:53 PM.454: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/savior/2021-04-23 22-43-29.flv' stopped
+10:43:53 PM.454: Output 'simple_file_output': stopping
+10:43:53 PM.454: Output 'simple_file_output': Total frames output: 683
+10:43:53 PM.454: Output 'simple_file_output': Total drawn frames: 710
+10:43:53 PM.454: ==== Recording Stop ================================================
