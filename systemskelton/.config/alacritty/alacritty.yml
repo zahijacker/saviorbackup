@@ -55,7 +55,7 @@ colors:
     text:       CellForeground
     background: '#3e4451' # syntax-selection-color
   normal:
-    black:      '#5c6370' # mono-3
+    black:      '#0f101a' # mono-3
     red:        '#e06c75' # red 1
     green:      '#20abb0'
     yellow:     '#008287' # orange 2
