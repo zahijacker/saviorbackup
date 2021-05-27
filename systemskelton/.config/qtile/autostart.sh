@@ -3,6 +3,7 @@
 # systray battery icon
 picom --xrender-sync-fence &
 nitrogen --restore &
+setxkbmap -layout us,ar -option grp:win_space_toggle &
 buckle &
 volumeicon &
 nm-applet &

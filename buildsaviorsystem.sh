@@ -2,15 +2,12 @@
 
 sudo pacman -S git --noconfirm
 
-git clone https://github##
-#cp ~/gitbackup/sysetemskelton/* ~/ 
-echo ~/ /root/ | xargs -n 1 sudo cp ~/gitbackup/systemskelton/*
-#sudo cp ~/gitbackup/systemskselton/* /root/
-sudo cp ~/gitbackup/ROOTDATA/bin/* /bin
+echo ~/ /root/ | xargs -n 1 sudo cp ~/saviorbackup/systemskelton/*
+#sudo cp ~/saviorbackup/systemskselton/* /root/
+sudo cp ~/saviorbackup/ROOTDATA/bin/* /bin
 
 
-chmod +x ~/gitbackup/pacmansysapps.sh 
+chmod +x ~/saviorbackup/pacmansysapps.sh 
 
-./gitbackup/pacmansysapps.sh
+./saviorbackup/pacmansysapps.sh
 
-setxkbmap -layout us,ar -option grp:win_space_toggle
