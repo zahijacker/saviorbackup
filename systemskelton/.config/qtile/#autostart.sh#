@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# systray battery icon
+nitrogen --restore &
+volumeicon &
+nm-applet &
+cbatticon -u 5 &
+#systray volume
+festival --tts $HOME/.config/qtile/welcome_msg &
+lxsession &
+
+/usr/bin/emacs --daemon &
+#chmod +x ~/bin/force-composition-pipeline.sh &
+#ln -s ~/bin/force-composition-pipeline.sh ~/.config/autostart-scripts/ &

@@ -1,0 +1,136 @@
+[Devices]
+hp DVD-RAM GH40L=7056,7057
+
+[External Programs]
+cdrdao default=/usr/bin/cdrdao
+cdrdao last seen newest version=1.2.4
+cdrdao user parameters=
+cdrecord default=/usr/bin/cdrecord
+cdrecord last seen newest version=3.2a09
+cdrecord user parameters=
+cdrskin default=/usr/bin/cdrskin
+cdrskin last seen newest version=1.5.4
+cdrskin user parameters=
+dvd+rw-format user parameters=
+eMovix user parameters=
+growisofs user parameters=
+mkisofs default=/usr/bin/mkisofs
+mkisofs last seen newest version=3.2a09
+mkisofs user parameters=
+normalize user parameters=
+readcd default=/usr/bin/readcd
+readcd last seen newest version=3.2a09
+readcd user parameters=
+search path[$e]=/usr/bin/,/usr/local/bin/,/usr/sbin/,/usr/local/sbin/,/sbin
+sox user parameters=
+transcode user parameters=
+vcdxbuild user parameters=
+vcdxminfo user parameters=
+vcdxrip user parameters=
+
+[General Options]
+Allow overburning=false
+Fifo buffer=4
+Force unsafe operations=false
+Last system check version=21.4.0
+Manual buffer size=false
+Navigator breadcrumb mode=true
+No cd eject=false
+Show Document Header=true
+Temp Dir=/home/savior/Videos/
+burnfree=true
+check system config=true
+config version=21.4.0
+current theme=quant
+current_writer=/dev/sr0
+
+[Welcome Widget]
+welcome_actions=file_new_data,file_new_audio,tools_copy_medium
+
+[file view]
+Allow Expansion=false
+Decoration position=2
+Show Inline Previews=true
+Show Preview=false
+Show hidden files=false
+Sort by=Name
+Sort directories first=true
+Sort reversed=false
+View Style=DetailTree
+last url[$e]=$HOME/Desktop/
+show bookmarks=false
+
+[image writing]
+copies=1
+data_track_mode=auto
+image path[$e]=$HOME/Desktop/pop-os_20.04_amd64_intel_23.iso
+image type=auto
+multisession=false
+on_the_fly=true
+recent images[$e]=$HOME/Desktop/pop-os_20.04_amd64_intel_23.iso
+simulate=false
+verify_data=false
+writer_device=
+writing_app=Auto
+writing_mode=auto
+writing_speed=0
+
+[last used default data settings]
+abstract file=
+allow 31 character filenames=true
+allow beginning period=false
+allow lowercase filenames=false
+allow multiple dots=false
+application id=K3B THE CD KREATOR (C) 1998-2018 SEBASTIAN TRUEG, MICHAL MALEK AND LESLIE ZHAI
+bibliograph file=
+copies=1
+copyright file=
+create TRANS_TBL=false
+data_track_mode=auto
+discard broken symlinks=false
+discard symlinks=false
+do not cache inodes=true
+do not import last session=false
+follow symbolic links=false
+hide TRANS_TBL=false
+image path[$e]=$HOME/Videos/Avid.Pro.Tools.HD.v12.5.0.395.WIN.X64.iso
+iso_level=3
+joliet=true
+joliet long=true
+max ISO filenames=false
+multisession mode=auto
+no iSO translation=false
+omit trailing period=false
+omit version numbers=false
+on_the_fly=true
+only_create_image=true
+preparer=
+preserve file permissions=false
+publisher=
+relaxed filenames=false
+remove_image=false
+rock_ridge=true
+simulate=false
+system id=LINUX
+udf=false
+untranslated filenames=false
+verify data=false
+volume id=Avid.Pro.Tools.HD.v12.5.0.395.WI
+volume set id=
+volume set number=1
+volume set size=1
+white_space_treatment=noChange
+whitespace replace string=_
+writer_device=
+writing_app=Auto
+writing_mode=auto
+writing_speed=0
+
+[main_window_settings]
+DVI-I-2 Height 1680x1050=844
+DVI-I-2 Width 1680x1050=1310
+DVI-I-2 XPosition 1680x1050=74
+DVI-I-2 YPosition 1680x1050=297
+RestorePositionForNextInstance=false
+State=AAAA/wAAAAD9AAAAAAAABR4AAALsAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
