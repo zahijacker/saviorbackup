@@ -228,9 +228,23 @@ def delete_task(task_to_delete):
 
 
 
-
-
-
+def timetracker():
+    over = False
+    print('Type quit whenever you want to exit.')
+    todays_date = dt.date.today()
+    day_month = f'{str(todays_date.day)}-{str(todays_date.month)}'
+    file_name = f'~/time_savior/time_tracker/{day_month}.json'
+    db = TinyDB(f'{home}/time_savior/time_tracker/{day_month}.json')
+    while not over:
+        task = input(" > ")
+        date_time = str(dt.datetime.now()).split('.')[0]
+        #day = date_time.split(' ')[0]
+        time = date_time.split(' ')[1].split(':') #['hours' ,'minutes', 'seconds']
+        final_time = time[0]+":"+time[1]
+        os.system(f'echo {final_time} ↩')
+        db.insert({task:final_time})
+        if task in "    quit    ":
+            over = True
 
 
 
@@ -278,16 +292,12 @@ def time_savior():
         #opens the same day journal file
         Journal.current_day(Journal.make_page())
 
-
+    elif answer in "    timetracker    ":
+        timetracker()
 
     else:
         ## I need to change this into a --help for the app
         print('Sorry. Avaliable commands >> "tasks","delete","new","open","journal",\n"edit","check" and "timer".')
-
-
-
-
-
 
 
 

@@ -1,37 +1,31 @@
-[KFileDialog Settings]
-Recent Files[$e]=2021-04-24 19-36-44.flv,file:$HOME/2021-05-07 05-45-12.flv,file:$HOME/2021-04-24 19-36-44.flv
-Recent URLs[$e]=file:$HOME/
-detailViewIconSize=16
-
 [MainWindow]
-DVI-I-2 Height 1680x1050=1014
-DVI-I-2 Width 1680x1050=1668
-DVI-I-2 XPosition 1680x1050=5
-DVI-I-2 YPosition 1680x1050=29
-State=AAAA/wAAAAD9AAAAAQAAAAIAAAaEAAAB3fwBAAAADfsAAAAUAHMAYwByAGUAZQBuAGcAcgBhAGIAAAAAAP////8AAABgAQAAA/sAAAAaAGEAdQBkAGkAbwBzAHAAZQBjAHQAcgB1AG0AAAAAAP////8AAABkAQAAA/wAAAAAAAABFwAAAIsA////+gAAAAABAAAAA/sAAAAeAHQAcgBhAG4AcwBpAHQAaQBvAG4AXwBsAGkAcwB0AQAAAAD/////AAAABAEAAAP7AAAAFgBlAGYAZgBlAGMAdABfAGwAaQBzAHQBAAAAAP////8AAAAEAQAAA/sAAAAeAGMAbABpAHAAXwBwAHIAbwBwAGUAcgB0AGkAZQBzAQAAAAD/////AAAAVwEAAAP7AAAAGABlAGYAZgBlAGMAdABfAHMAdABhAGMAawEAAAEYAAAAwAAAAGABAAAD/AAAAdkAAAJgAAABRAD////6AAAAAAIAAAAE+wAAAB4AcAByAG8AagBlAGMAdABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAADLAQAAAvsAAAAYAGMAbABpAHAAXwBtAG8AbgBpAHQAbwByAQAAAEQAAAHNAAAAywEAAAL7AAAAEgBTAHUAYgB0AGkAdABsAGUAcwAAAAAA/////wAAARkBAAAD+wAAAA4AbABpAGIAcgBhAHIAeQEAAAAA/////wAAAJQBAAAC/AAABDoAAAJKAAABJAD////8AgAAAAL8AAAATQAAAQMAAADNAQAAHfoAAAAAAgAAAAL7AAAAFgBwAHIAbwBqAGUAYwB0AF8AYgBpAG4BAAAAAP////8AAACFAQAAAvsAAAAKAG0AaQB4AGUAcgEAAABNAAABzQAAAK8BAAAC/AAAAVEAAADZAAAArAEAAB36AAAAAAEAAAAC+wAAABgAdQBuAGQAbwBfAGgAaQBzAHQAbwByAHkBAAAAAP////8AAABbAQAAA/sAAAAYAG4AbwB0AGUAcwBfAHcAaQBkAGcAZQB0AQAABJYAAAHuAAAAZwEAAAP7AAAAFgB2AGUAYwB0AG8AcgBzAGMAbwBwAGUAAAAAAP////8AAAEcAQAAA/sAAAAQAHcAYQB2AGUAZgBvAHIAbQAAAAAA/////wAAAJ4BAAAD+wAAABQAcgBnAGIAXwBwAGEAcgBhAGQAZQAAAAAA/////wAAAJoBAAAD+wAAABIAaABpAHMAdABvAGcAcgBhAG0AAAAAAP////8AAAE8AQAAA/sAAAAQAHQAZQB4AHQAZQBkAGkAdAAAAAAA/////wAAAYQBAAAD+wAAABAAYgBpAG4AXwBjAGwAaQBwAAAAAAD/////AAACNgEAAAP7AAAAHgBvAG4AbABpAG4AZQByAGUAcwBvAHUAcgBjAGUAcwAAAAAA/////wAAATwBAAADAAAGhAAAAasAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAgAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAAAAAAYAGUAeAB0AHIAYQBUAG8AbwBsAEIAYQByAQAAAhj/////AAAAAAAAAAA=
+DVI-D-0 Height 1680x1050=906
+DVI-D-0 Width 1680x1050=1325
+DVI-D-0 XPosition 1680x1050=374
+DVI-D-0 YPosition 1680x1050=64
+DVI-I-2 Height 1680x1050=919
+DVI-I-2 Width 1680x1050=1532
+DVI-I-2 XPosition 1680x1050=148
+DVI-I-2 YPosition 1680x1050=131
+State=AAAA/wAAAAD9AAAAAgAAAAEAAAFaAAAB//wCAAAAAfwAAAFrAAAB/wAAAM0BAAAd+gAAAAECAAAAAvsAAAAKAG0AaQB4AGUAcgEAAAHwAAACCwAAAK8BAAAC+wAAABgAZQBmAGYAZQBjAHQAXwBzAHQAYQBjAGsBAAAAAP////8AAABwAQAAAgAAAAIAAAUtAAABHfwBAAAADPsAAAAUAHMAYwByAGUAZQBuAGcAcgBhAGIAAAAAAP////8AAABgAQAAA/sAAAAaAGEAdQBkAGkAbwBzAHAAZQBjAHQAcgB1AG0AAAAAAP////8AAABkAQAAA/wAAAAAAAABPgAAAIsA////+gAAAAABAAAABPsAAAAWAHAAcgBvAGoAZQBjAHQAXwBiAGkAbgEAAAAA/////wAAAFwBAAAD+wAAABYAZQBmAGYAZQBjAHQAXwBsAGkAcwB0AQAAAAD/////AAAABAEAAAP7AAAAHgBjAGwAaQBwAF8AcAByAG8AcABlAHIAdABpAGUAcwEAAAAA/////wAAAFcBAAAD+wAAABgAdQBuAGQAbwBfAGgAaQBzAHQAbwByAHkBAAAAAP////8AAABbAQAAA/sAAAAeAHQAcgBhAG4AcwBpAHQAaQBvAG4AXwBsAGkAcwB0AQAAAT8AAAHlAAAAYAEAAAP8AAADJQAAAggAAAFEAP////oAAAADAgAAAAX7AAAAEgBTAHUAYgB0AGkAdABsAGUAcwAAAAAA/////wAAARkBAAAD+wAAAA4AbABpAGIAcgBhAHIAeQEAAAAA/////wAAAJQBAAAC+wAAABgAYwBsAGkAcABfAG0AbwBuAGkAdABvAHIBAAAAAP////8AAADLAQAAAvsAAAAeAHAAcgBvAGoAZQBjAHQAXwBtAG8AbgBpAHQAbwByAQAAAL8AAAEsAAAAywEAAAL7AAAAGABuAG8AdABlAHMAXwB3AGkAZABnAGUAdAEAAAAA/////wAAAI4BAAAC+wAAABYAdgBlAGMAdABvAHIAcwBjAG8AcABlAAAAAAD/////AAABHAEAAAP7AAAAEAB3AGEAdgBlAGYAbwByAG0AAAAAAP////8AAACeAQAAA/sAAAAUAHIAZwBiAF8AcABhAHIAYQBkAGUAAAAAAP////8AAACaAQAAA/sAAAASAGgAaQBzAHQAbwBnAHIAYQBtAAAAAAD/////AAABPAEAAAP7AAAAEAB0AGUAeAB0AGUAZABpAHQAAAAAAP////8AAAGEAQAAA/sAAAAQAGIAaQBuAF8AYwBsAGkAcAAAAAAA/////wAAAjYBAAAD+wAAAB4AbwBuAGwAaQBuAGUAcgBlAHMAbwB1AHIAYwBlAHMAAAAAAP////8AAAE8AQAAAwAAA9IAAAH/AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAGABlAHgAdAByAGEAVABvAG8AbABCAGEAcgEAAAIY/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-
-[MainWindow][Toolbar timelineToolBar]
-ToolButtonStyle=IconOnly
 
 [OnlineResources]
 provider=Freesound
 zoom=7
 
 [Recent Dirs]
-KdenliveClipFolder[$e]=$HOME/,$HOME/Videos,$HOME/Documents
-KdenliveProjectsFolder[$e]=$HOME/Videos/,$HOME/Videos,$HOME/production/videos/channelinfo
+KdenliveClipFolder[$e]=$HOME/Videos,$HOME/Documents
+KdenliveProjectsFolder[$e]=$HOME/Desktop/ADM,$HOME/Documents
 
 [Recent Files]
-File1[$e]=$HOME/production/videos/channelinfo/vid.kdenlive
-File2[$e]=$HOME/Videos/try.kdenlive
-File3[$e]=$HOME/Videos/intro.kdenlive
-Name1[$e]=vid.kdenlive
-Name2[$e]=try.kdenlive
-Name3[$e]=intro.kdenlive
+File1[$e]=$HOME/Desktop/ADM/df.kdenlive
+File2[$e]=$HOME/Desktop/ADM/dfdfdfdf.kdenlive
+Name1[$e]=df.kdenlive
+Name2[$e]=dfdfdfdf.kdenlive
 
 [RenderWidget]
-showoptions=true
+showoptions=false
 
 [Scope_Histogram]
 autoRefresh=true
@@ -68,81 +62,35 @@ paintmode=0
 realtime=false
 rec601=false
 
-[TitleWidget]
-background_alpha=0
-background_color=0,0,0
-dialog_geometry=AdnQywADAAAAAAEhAAAAqwAABWoAAAOCAAABIgAAAKwAAAVpAAADgQAAAAAAAAAABpAAAAEiAAAArAAABWkAAAOB
-font_color=204,19,255
-font_family=Ubuntu,-1,120,5,50,0,0,0,0,0
-font_italic=false
-font_outline=3
-font_outline_color=0,0,0
-font_pixel_size=120
-font_underlined=false
-font_weight=50
-rect_background_alpha=255
-rect_background_color=0,0,0
-rect_foreground_alpha=255
-rect_foreground_color=0,0,0
-rect_line_width=0
-use_grid=false
-
-[UiSettings]
-ColorSchemePath=BreezeDark.colors
-
 [bin]
-treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAI/gAAAAcAAAAHAAAANgAAAAYAAAAiAAAABQAAAEkAAAAEAAAALAAAAAMAAAAzAAAAAgAAAFkAAAABAAAAMQAAARwAAAAIAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAIAAABHAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAAA4
+treeviewheaders=AAAA/wAAAAAAAAABAAAAAAAAAAABAAAAAAAAAAAAAAAI/gAAAAcAAAAHAAAANgAAAAYAAAAuAAAABQAAAEwAAAAEAAAALgAAAAMAAAA1AAAAAgAAAFwAAAABAAAANQAAASIAAAAIAQEAAQAAAAAAAAAAAAAAAGT/////AAAAgQAAAAAAAAAIAAABIgAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAAD6AAAAAA7
 
 [capture]
-decklink_capturedevice=4294967295
 decklink_extension=mov
 decklink_parameters=vcodec=dnxhd vb=145000k acodec=pcm_s16le threads=%threads
-defaultaudiocapture=0
-detectedv4ldevices=4294967295
 grab_extension=mov
 grab_parameters=-crf 25 -vcodec libx264 -preset veryfast -threads 0
 v4l_extension=mpg
 v4l_parameters=qscale=4 ab=192k vcodec=mpeg2video acodec=mp2 threads=%threads
 
 [env]
-defaultaudioapp=/usr/bin/audacity
-defaultimageapp=/usr/bin/gimp
 defaultprojectfolder[$e]=$HOME/Videos
-encodethreads=8
-ffmpegpath[$e]=/usr/bin/ffmpeg
-ffplaypath[$e]=/usr/bin/ffplay
-ffprobepath[$e]=/usr/bin/ffprobe
 mltpath[$e]=/usr/share/mlt/profiles
-rendererpath[$e]=/usr/bin/melt
-
-[project]
-externalProxyProfile=../Sub;;S03.MP4;../Clip;;.MXF
-parallelrender=false
-
-[sdl]
-blackmagic_output_device=-1
-
-[settings]
-dialogSize=1024,700
-
-[shuttle]
-shuttlebuttons=button0=monitor_pause
+rendererpath[$e]=/usr/bin/melt6
 
 [timeline]
+headerwidth=281
 trackheight=69
 
 [unmanaged]
-default_profile=atsc_1080p_30
-defaultrescaleheight=525
-defaultrescalewidth=840
-enableaudiospectrum=false
-favorite_effects=volume,qtblend
+default_profile=atsc_1080p_25
+defaultrescaleheight=780
+defaultrescalewidth=360
 force_breeze=true
 monitor_audio=false
 producerslist=pango,pixbuf,frei0r.ising0r,frei0r.lissajous0r,frei0r.nois0r,frei0r.onecol0r,frei0r.partik0l,frei0r.plasma,frei0r.test_pat_B,frei0r.test_pat_C,frei0r.test_pat_G,frei0r.test_pat_I,frei0r.test_pat_L,frei0r.test_pat_R,avformat,avformat-novalidate,qimage,qtext,kdenlivetitle,decklink,abnormal,color,colour,consumer,hold,loader,melt,melt_file,noise,timewarp,tone,vorbis,pgm,blipflash,count,slowmotion,framebuffer,xml,xml-string,xml-nogl
-project_fps=30
 use_dark_breeze=true
-widgetstyle=Breeze
+widgetstyle=Default
 
 [version]
-version=21.04.0
+version=21.04.2

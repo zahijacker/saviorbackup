@@ -1177,7 +1177,7 @@
   <resource identifier="${gimp_data_dir}/gradients/Yellow_Orange.ggr" checksum="428584726006e23e260baa2a7d79f295">
   </resource>
 
-  <resource identifier="gimp-palette-color-history" checksum="eecb4b29677aeb78c20f7e8ddcf63344">
+  <resource identifier="gimp-palette-color-history" checksum="87a3e50fab270a5ccde3fc09b4b5a8a0">
   </resource>
 
   <resource identifier="${gimp_data_dir}/palettes/Bears.gpl" checksum="e82e818c20ac12bdd21049924ea2d1e7">
@@ -3397,12 +3397,6 @@
   <resource identifier="Ubuntu Light Italic" checksum="(null)">
   </resource>
 
-  <resource identifier="Ubuntu Medium" checksum="(null)">
-  </resource>
-
-  <resource identifier="Ubuntu Medium Italic" checksum="(null)">
-  </resource>
-
   <resource identifier="Ubuntu Mono" checksum="(null)">
   </resource>
 
@@ -3437,6 +3431,12 @@
   </resource>
 
   <resource identifier="UbuntuMono Nerd Font Mono Italic" checksum="(null)">
+  </resource>
+
+  <resource identifier="Ubuntu Semi-Bold" checksum="(null)">
+  </resource>
+
+  <resource identifier="Ubuntu Semi-Bold Italic" checksum="(null)">
   </resource>
 
   <resource identifier="Weather Icons" checksum="(null)">

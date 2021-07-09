@@ -161,3 +161,5 @@ export PS1="\n\[\033[1;31m\]\u 🖖  \[\033[1;32m\]@ \[\033[1;32m\]\h \[\033[0;3
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+eval "$(starship init bash)"
+export PATH="$HOME/pycharm/bin:$PATH"

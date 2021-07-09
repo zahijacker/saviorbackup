@@ -1,0 +1,11 @@
+game:
+  arch: win64
+  exe: /home/savior/Storage/Games/DARK SOULS REMASTERED/DarkSoulsRemastered.exe
+  working_dir: ~/Storage/Games/DARK SOULS REMASTERED
+system:
+  prime: true
+wine:
+  Desktop: true
+  WineDesktop: 1680x1050
+  system_winetricks: true
+  xinput-arch: win64

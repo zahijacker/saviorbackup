@@ -1,0 +1,11 @@
+game:
+  arch: win32
+  exe: /home/savior/stronghold_crussader/Stronghold_Crusader.exe
+  prefix: ~/
+  working_dir: ~/stronghold_crussader
+system: {}
+wine:
+  Desktop: false
+  WineDesktop: 1680x1050
+  esync: true
+  fsync: false

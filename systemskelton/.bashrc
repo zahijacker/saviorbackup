@@ -155,7 +155,11 @@ LS_COLORS=$LS_COLORS:'di=1;33;100:' ; export LS_COLORS
 HISTSIZE=20000
 HISTFILESIZE=20000
 
-
+####custom#####
+export PS1="\n\[\033[1;31m\]\u 🖖  \[\033[1;32m\]@ \[\033[1;32m\]\h \[\033[0;35m\]in \[\033[0;36m\]\w\n\[\033[0;34m\]> \[\033[1;37m\] \[\e[0m\]"
+##############
 
 export VISUAL=vim
 export EDITOR="$VISUAL"
+eval "$(starship init bash)"
+export PATH="$HOME/pycharm/bin:$PATH"

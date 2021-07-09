@@ -60,7 +60,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
 
     # Browser
     ([mod], "b", lazy.spawn("firefox")),
-
+    ([mod], 'p', lazy.spawn('pycharm')),
     # File Explorer
     ([mod], "e", lazy.spawn("xfce4-taskmanager")),
 
@@ -70,7 +70,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     
     #Firefox tab
     ([mod, 'shift'],'n', lazy.spawn('firefox --private-window')),
-
+    ([mod], 'n', lazy.spawn('qtwebflix')),
     # Mount drives
     ([mod, 'shift'],'d', lazy.spawn('./.config/qtile/scripts/mount.sh')),
 
@@ -80,8 +80,8 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     # pavucontrol for voice control
     ([mod],'v',lazy.spawn('pavucontrol')),
     # Screenshot
-    ([mod], "s", lazy.spawn("scrot ~/Pictures/Scrot/%b%d::%H%M%S.png")),
-
+    ([mod], "s", lazy.spawn("scrot")),
+    ([mod],'i',lazy.spawn('vlc iggy.mp3')),
     # ------------ Hardware Configs ------------
 
     # Volume

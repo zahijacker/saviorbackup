@@ -1,0 +1,174 @@
+2400%400
+2400%4
+2400%100
+10^5
+if 5 in range(0,10):
+	for i in range(0,5):
+		print(i,end(""))
+if 5 in range(0,10):
+	for i in range(0,5):
+		print(i,end=""))
+if 5 in range(0,10):
+	for i in range(0,5):
+		print(i,end="")
+if 5 in range(1,10):
+	for i in range(1,5):
+		print(i,end="")
+if 8 in range(1,10):
+	for i in range(1,8):
+		print(i,end="")
+print("File one __name__ is set to: {}" .format(__name__))
+quit
+exit
+exit()
+2**2
+exit
+exit(0
+exit()
+  
+function get_midlle(s):
+    if len(s) % 2 == 1:
+       return round(len(s)/2-1)
+    else:
+function get_midlle(s):
+function get_middle(s):
+func hola(df):
+function get_midlle(s):
+def get_midlle(s):
+  if len(s) % 2 == 1:
+    return round(len(s)/2-1)
+  else:
+    return '{}{}'.format(len(s)/2-1,len(s)/2)
+get_middle('assem')
+get_midlle('assem')
+def get_midlle(s):
+  if len(s) % 2 == 1:
+    return round(len(s)/2-1)
+  else:
+    return '{}{}'.format(s[len(s)/2-1],s[len(s)/2])
+def get_middle(s):
+  if len(s) % 2 == 1:
+    return round(len(s)/2-1)
+  else:
+    return '{}{}'.format(s[len(s)/2-1],s[len(s)/2])
+git_middle('asssem')
+get_middle('asssem')
+get_middle('assem')
+get_middle('asssem')
+len('assem')/2
+len('asssem')/2
+  
+def get_middle(s):
+  if len(s) % 2 == 1:
+    return round(len(s)/2-1)
+  else:
+    return '{}{}'.format(s[int(len(s)/2-1)],s[int(len(s)/2)]
+  
+def get_middle(s):
+  if len(s) % 2 == 1:
+    return round(len(s)/2-1)
+  else:
+    return '{}{}'.format(s[int(len(s)/2-1)],s[int(len(s)/2)]
+	
+  
+def get_middle(s):
+  if len(s) % 2 == 1:
+    return round(s[int(len(s)/2-1)])
+  else:
+    return '{}{}'.format(s[int(len(s)/2-1)],s[int(len(s)/2)]
+  
+def get_middle(s):
+  if len(s) % 2 == 1:
+    return round(s[int(len(s)/2-1)])
+  else:
+    return '{}{}'.format(s[int(len(s)/2-1)],s[int(len(s)/2)]
+f
+  
+def get_middle(s):
+  if len(s) % 2 == 1:
+    return round(s[int(len(s)/2-1)])
+  else:
+    return '{}{}'.format(s[int(len(s)/2-1)],s[int(len(s)/2)]
+  
+def get_middle(s):
+  if len(s) % 2 == 1:
+    return round(s[int(len(s)/2-1)])
+  else:
+    return '{}{}'.format(s[int(len(s)/2-1)]),s[int(len(s)/2)]
+get_middle('asssem')
+Math.round(123.3)
+round(12.1)
+i = input('hola \n 2')
+print (i)
+i = input()
+12 
+print (i)
+i = input()
+12 \n 123
+print iD
+i = input()
+21 \n 12323
+print (i)
+exit()
+x=1 
+print (x)
+x+=1
+print(x)
+quit()
+list = [1,2]
+del(list[0])
+print(list)
+quit()
+list = ['1','2']
+del(list['1'])
+del(list.'1')
+del(list['1'])
+del(list('1'))
+char = list[1]
+print(char)
+del(char)
+print(char)
+del('1' in list)
+print(list)
+quit()
+for i in range(0,3):
+print(i)
+for i in range(0,3):
+	print(i)
+import mechanize
+br.open('http://192.168.1.1')
+mechanize.Browser.open('http://192.168.1.1')
+mechanize.Browser.open(url)
+mechanize.Browser.open(http://192.168.1.1)
+mechanize.Browser.open('http://192.168.1.1')
+mechanize.Browser.open(self,'http://192.168.1.1')
+url = 'https://192.168.1.1'
+mechanize.Browser.open(url)
+quit()
+import selenium
+import seleniumd
+from selenium.webdriver import Firefox
+from selenium.webdriver.firefox.options import Options
+opts = Options()
+opts.set_headless()
+assert opts.headless  # Operating in headless mode
+browser = Firefox(options=opts)
+mechanize.Browser.open(url)
+browser = Firefox(options=opts)
+browser.get('https://duckduckgo.com')
+from selenium.webdriver import Firefox
+from selenium.webdriver.firefox.options import Options
+opts = Options()
+opts.set_headless()
+opts.setter()
+opts = Options()
+opts.headless = True
+driver = webdriver.Firefox(options=opts)
+browser = Firefox(options=opts)
+from selenium import webdriver
+from selenium.webdriver.firefox.options import Options
+import logging
+opts = Options()
+opts.headless = True
+driver = webdriver.Firefox(options=opts)
+driver.get("https://www.krypterro.com")

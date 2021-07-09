@@ -1,0 +1,125 @@
+<application>
+  <component name="VimHistorySettings">
+    <history>
+      <history-search>
+        <entry encoding="base64">UnVzc2lh</entry>
+        <entry encoding="base64">XG4=</entry>
+        <entry encoding="base64">bGFiZGE6IG5ldw==</entry>
+        <entry encoding="base64">bGFtYmRh</entry>
+      </history-search>
+      <history-cmd>
+        <entry encoding="base64">cQ==</entry>
+        <entry encoding="base64">dw==</entry>
+      </history-cmd>
+      <history-expr />
+      <history-input />
+    </history>
+  </component>
+  <component name="VimMarksSettings">
+    <globalmarks />
+    <filemarks>
+      <file name="/refactoring_savior" timestamp="1624706888731">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/100python/day10-fucntions_with_outputs/functions.py" timestamp="1624716085778">
+        <mark key="'" line="19" column="29" />
+        <mark key="[" line="19" column="29" />
+        <mark key="]" line="19" column="29" />
+        <mark key="." line="19" column="29" />
+        <mark key="^" line="20" column="0" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1624711980844">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="/Python Console" timestamp="1624707102067">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="$USER_HOME$/100python/day9-dictionaries/nesting_dics.py" timestamp="1624706945727">
+        <mark key="'" line="2" column="0" />
+        <mark key="]" line="2" column="0" />
+        <mark key="^" line="2" column="0" />
+        <mark key="." line="2" column="602" />
+      </file>
+      <file name="$USER_HOME$/100python/refactoring_savior.py" timestamp="1624707793005">
+        <mark key="]" line="39" column="0" />
+        <mark key="^" line="39" column="0" />
+        <mark key="." line="39" column="0" />
+      </file>
+    </filemarks>
+    <jumps>
+      <jump line="28" column="0" filename="$USER_HOME$/100python/day9-dictionaries/nesting_dics.py" />
+      <jump line="27" column="17" filename="$USER_HOME$/100python/day9-dictionaries/nesting_dics.py" />
+      <jump line="21" column="2" filename="$USER_HOME$/100python/day9-dictionaries/nesting_dics.py" />
+      <jump line="25" column="0" filename="$USER_HOME$/100python/day9-dictionaries/nesting_dics.py" />
+      <jump line="12" column="0" filename="$USER_HOME$/100python/day9-dictionaries/nesting_dics.py" />
+      <jump line="31" column="0" filename="$USER_HOME$/100python/day9-dictionaries/nesting_dics.py" />
+      <jump line="8" column="0" filename="$USER_HOME$/100python/day9-dictionaries/nesting_dics.py" />
+      <jump line="66" column="50" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="67" column="0" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="68" column="0" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="69" column="17" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="93" column="13" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="99" column="15" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="101" column="15" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="50" column="31" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="51" column="21" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="52" column="21" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="42" column="0" filename="$USER_HOME$/100python/refactoring_savior.py" />
+      <jump line="19" column="29" filename="$USER_HOME$/100python/day10-fucntions_with_outputs/functions.py" />
+    </jumps>
+  </component>
+  <component name="VimRegisterSettings">
+    <registers>
+      <register name="&quot;" type="4">
+        <text encoding="base64">LCB1c2VyX2k=</text>
+      </register>
+      <register name="-" type="4">
+        <text encoding="base64">LCB1c2VyX2k=</text>
+      </register>
+      <register name="." type="4">
+        <text encoding="base64">ag==</text>
+      </register>
+      <register name="/" type="4">
+        <text encoding="base64">bGFtYmRh</text>
+      </register>
+      <register name="1" type="2">
+        <text encoding="base64">CnByaW50KGZvcm1hdF9uYW1lKCdhc3NlbScsICdtb2hhbW1lZCcpKQoK</text>
+      </register>
+      <register name="2" type="4">
+        <text encoding="base64">JycnbXVsdGkgbGluZSBjb21tZW50IApoZXJlIG1vdGhlciBmdWNrZXJzJycn</text>
+      </register>
+      <register name="3" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="4" type="2">
+        <text encoding="base64">cHJpbnQoCg==</text>
+      </register>
+      <register name="5" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50KAo=</text>
+      </register>
+      <register name="6" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgICAgIHByaW50Cg==</text>
+      </register>
+      <register name="7" type="2">
+        <text encoding="base64">ICAgICAgICAgICAgCg==</text>
+      </register>
+      <register name="8" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name="9" type="2">
+        <text encoding="base64">Cg==</text>
+      </register>
+      <register name=":" type="4">
+        <text encoding="base64">dw==</text>
+      </register>
+    </registers>
+  </component>
+  <component name="VimSearchSettings">
+    <search>
+      <last-search encoding="base64">bGFtYmRh</last-search>
+      <last-pattern encoding="base64">bGFtYmRh</last-pattern>
+      <last-dir encoding="base64">MQ==</last-dir>
+      <show-last encoding="base64">ZmFsc2U=</show-last>
+    </search>
+  </component>
+</application>

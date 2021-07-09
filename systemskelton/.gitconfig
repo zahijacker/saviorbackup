@@ -4,4 +4,4 @@
 [color]
 	ui = true
 [core]
-	editor = emacs
+	editor = atom -w

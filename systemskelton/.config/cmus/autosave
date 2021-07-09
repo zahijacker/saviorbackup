@@ -59,7 +59,7 @@ set dsp.ao.wav_dir=/home/savior
 set dsp.jack.resampling_quality=2
 set dsp.jack.server_name=
 set dsp.oss.device=
-set follow=true
+set follow=false
 set format_current= %a - %l -%3n. %t%= %y 
 set format_playlist= %-21%a %3n. %t%= %y %d %{?X!=0?%3X ?    }
 set format_playlist_va= %-21%A %3n. %t (%a)%= %y %d %{?X!=0?%3X ?    }
@@ -81,6 +81,7 @@ set input.flac.priority=50
 set input.mad.priority=55
 set input.modplug.priority=50
 set input.mpc.priority=50
+set input.opus.priority=50
 set input.vorbis.priority=50
 set input.wav.priority=50
 set input.wavpack.priority=50
@@ -98,7 +99,7 @@ set passwd=
 set pl_sort=
 set play_library=true
 set play_sorted=false
-set repeat=false
+set repeat=true
 set repeat_current=true
 set replaygain=disabled
 set replaygain_limit=true
@@ -111,7 +112,7 @@ set show_all_tracks=true
 set show_current_bitrate=false
 set show_hidden=false
 set show_playback_position=true
-set show_remaining_time=true
+set show_remaining_time=false
 set shuffle=false
 set skip_track_info=false
 set smart_artist_sort=true

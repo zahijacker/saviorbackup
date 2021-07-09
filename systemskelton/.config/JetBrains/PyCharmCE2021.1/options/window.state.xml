@@ -1,0 +1,35 @@
+<application>
+  <component name="DimensionService">
+    <location key="find.popup.0.0.1680.1050" x="610" y="181" />
+    <size key="GridCell.Tab.0.left.0.0.1680.1050" width="1536" height="268" />
+    <size key="GridCell.Tab.0.center.0.0.1680.1050" width="1536" height="268" />
+    <size key="GridCell.Tab.0.right.0.0.1680.1050" width="1536" height="268" />
+    <size key="GridCell.Tab.0.bottom.0.0.1680.1050" width="1536" height="268" />
+    <size key="GridCell.Tab.1.left.0.0.1680.1050" width="1647" height="377" />
+    <size key="GridCell.Tab.1.center.0.0.1680.1050" width="1647" height="377" />
+    <size key="GridCell.Tab.1.right.0.0.1680.1050" width="1647" height="377" />
+    <size key="GridCell.Tab.1.bottom.0.0.1680.1050" width="1647" height="377" />
+    <size key="find.popup.0.0.1680.1050" width="841" height="747" />
+  </component>
+  <component name="WindowManager">
+    <frame x="123" y="220" width="1557" height="830" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+    </layout>
+  </component>
+  <component name="WindowStateApplicationService">
+    <state x="611" y="246" key="FileChooserDialogImpl" timestamp="1624699242321">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="611" y="246" key="FileChooserDialogImpl/0.0.1680.1050" timestamp="1624699242321" />
+    <state x="443" y="907" width="300" height="104" key="ProcessPopupWindow" timestamp="1625184793206">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="443" y="907" width="300" height="104" key="ProcessPopupWindow/0.0.1680.1050" timestamp="1625184793206" />
+  </component>
+</application>

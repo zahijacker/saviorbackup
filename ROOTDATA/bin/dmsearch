@@ -69,7 +69,8 @@ else
 	options[googlenews]="https://news.google.com/search?q="
 	options[googleSupport]="https://support.google.com/search?q="
 	options[googleSupportAdmin]="https://support.google.com/a/search?q="
-	options[googleStructuredData]="https://search.google.com/structured-data/testing-tool#url="
+	options[googleStructuredData]="https://search.google.com/structured-data/testing-tool#url=" 
+    options[twitter]='https://twitter.com/search?q='
 	options[googleRichResults]="https://search.google.com/test/rich-results??url="
 	options[googlePagespeed]="https://developers.google.com/speed/pagespeed/insights/?url="
 	options[googleDevelopers]="https://developers.google.com/s/results?q="

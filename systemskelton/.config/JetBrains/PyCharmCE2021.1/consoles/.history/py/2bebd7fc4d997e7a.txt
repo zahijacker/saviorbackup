@@ -1,0 +1,27 @@
+what the fuck 
+-. . -..- - / . -. - .-. -.--
+no thank
+-. . -..- - / . -. - .-. -.--
+fuck
+-. . -..- - / . -. - .-. -.--
+runfile('/home/savior/100python/refactoring_savior.py', wdir='/home/savior/100python')
+-. . -..- - / . -. - .-. -.--
+executes
+-. . -..- - / . -. - .-. -.--
+did = {'s':1, 'z':2,}
+-. . -..- - / . -. - .-. -.--
+import random
+-. . -..- - / . -. - .-. -.--
+random.choice(did)
+-. . -..- - / . -. - .-. -.--
+did[1]
+-. . -..- - / . -. - .-. -.--
+did['s']
+-. . -..- - / . -. - .-. -.--
+runfile('/home/savior/100python/day11-capstone/blackjack_game.py', wdir='/home/savior/100python/day11-capstone')
+-. . -..- - / . -. - .-. -.--
+y
+-. . -..- - / . -. - .-. -.--
+n
+-. . -..- - / . -. - .-. -.--
+pip install tweepy

@@ -1,0 +1,324 @@
+#!/usr/bin/env python3
+import datetime as dt
+import glob
+import json
+import os
+from os import path
+from tinydb import TinyDB 
+from pathlib import Path
+import time
+import sys
+
+###### A program to help orgnizing your day, offers essential tools, a journal. to do list, timer, and time tracker. #######
+
+## Task Directories sorted from 0 to 3 (0 is the most Urgent, 3 is the lesat urgent)
+DIRS = ['urgent','urgent_but','not_urgent','not_urgent_at_all']
+home = str(Path.home())
+json_files = glob.glob(home+'/time_savior/tasks/*/*.json')
+
+class Newtask():
+
+    ## Task Structure and elements
+
+    def __init__(self,task_name,urgency_level,notes):
+        self.task_name = task_name
+        self.urgency_level = urgency_level
+        self.notes = notes
+        self.time_created = dt.datetime.now()
+
+
+
+    def make(self, urgency_level,task_name):
+        ## Makes the DIRECTORY and writes the task in a JSON file inside it.
+        ## Name of DIRECTORY is based on the number(urgency_level) given by the user.
+        ## check if the app folder doesn't exists
+        if path.exists(home+'/time_savior/tasks') == False:
+            os.system('mkdir '+home+'/time_savior/tasks')
+        task_directory = home+'/time_savior/tasks/'+DIRS[self.urgency_level]
+
+        ## CHICKING IF urgency_level THE DIRECTORY DOESN'T EXIST.
+
+        if path.exists(task_directory) == False:
+            os.system('mkdir ' +task_directory)
+
+        ## MAKING THE TASK FILE NAMED AS 'task_name(given by user).json'
+        db = TinyDB(task_directory+'/'+self.task_name+'.json')
+        db.insert({'task':self.task_name, 'notes': self.notes}) # we should add the other details of the task.
+
+
+
+
+class Journal():
+    # Makes a Journal page object located in .txt file
+    # Named as the day it got created in..
+
+    def __init__(self,procutivity_lvl,done,
+                shouldve_done,shouldnot_done,
+                final_thoughts):
+        #so what should the object contains
+        #level_of_productivity LOP and things_i've_done tid
+        #and things I should've done shd
+        #things I shouldn't done shnd
+        #final thoughts ft
+        self.procutivity_lvl = procutivity_lvl
+        self.done = done
+        self.shouldve_done = shouldve_done
+        self.shouldnot_done = shouldnot_done
+        self.final_thoughts = final_thoughts
+
+    def make_page():
+        ## GETTING THE DATE TO NAME THE FILE
+        date = str(dt.datetime.now())
+        date_list =  date.split(' ')
+        day_month_year = date_list[0]
+        naming_elements = day_month_year.split('-')
+
+        year = naming_elements[0]
+
+        month = naming_elements[1]
+        #Turning the number of month into readable month string
+        list_of_months = {'01':'jan','02':'feb','03':'mar','4':'apr',
+                        '05':'may','06':'jun','07':'jul','08':'Aug',
+                        '09':'sep','10':'oct','11':'nov','12':'dec'}
+        #Giving every month it's value
+        for i in list_of_months:
+            if month == i:
+                month = list_of_months[i]
+
+        day = naming_elements[2]
+        #Final name of the file
+        name_of_journal_page = day+month+'.txt'
+
+        #Making the folder of the journal pages
+        if path.exists(home+'/time_savior') == False:
+            os.system('mkdir '+home+'/time_savior')
+        if path.exists(home+'/time_savior/Journal') == False:
+            os.system('mkdir '+home+'/time_savior/Journal')
+        journal_directory = home+'/time_savior/Journal/'+month
+        #Making a dedicated dir for every month
+        if path.exists(journal_directory) == False:
+            os.system('mkdir ' +journal_directory)
+
+        #Making the file named as the day and month
+        full_page_path = journal_directory+'/'+name_of_journal_page
+        os.system("touch "+full_page_path)
+
+        return full_page_path
+
+
+    def new_page(done,shouldve_done,shouldnot_done,
+                final_thoughts,full_page_path):
+
+        things_i_have_done = ['##ACCOMBLISHED##: ',done.split('/')]
+        things_i_should_have_done = ['##THINGS I  SHOULD HAVE NOT DONE##:',shouldve_done.split('/')]
+        things_i_should_have_not_done = ['##THINGS I SHOULD HAVE DONE##:',shouldnot_done.split('/')]
+        final_thoughts = ['##FINAL THOUGHTS##:',final_thoughts.split('/')]
+
+
+        def item_nester(list_of_items):
+            j_page = open(full_page_path,'a')
+            j_page.writelines('\n'+list_of_items[0]+'\n\n')
+            for item in list_of_items[1]:
+                j_page.writelines(item+'\n')
+
+        item_nester(things_i_have_done)
+
+        item_nester(things_i_should_have_done)
+
+        item_nester(things_i_should_have_not_done)
+
+        item_nester(final_thoughts)
+
+        os.system("vim "+full_page_path)
+
+
+
+
+    def current_day(page):
+        os.system("vim "+page)
+
+
+
+
+
+
+
+
+
+
+
+
+
+def animedoro(minutes):
+    ## there's couple of things the needs to be adjusted..
+    ## currently> no way to pause the timer, It would better if it counts in minutes
+    os.system('paplay '+home+'/time_savior/.settings/sfx/start.m4a')
+    for remaining in range(minutes*60, 0, -1):
+        sys.stdout.write("\r")
+        sys.stdout.write("{:2d} seconds remaining.".format(remaining))
+        sys.stdout.flush()
+        time.sleep(1)
+
+    os.system('paplay '+home+'/time_savior/.settings/sfx/end.m4a')
+    sys.stdout.write("\rComplete!            \n")
+
+
+
+def task_process():
+
+    ## This function Should be called whenever you want to create a new task.
+
+    ## Getting the essinitial elements from the user
+    task_name = input('what do you want to do? >>')
+    urgency_level = int(input('how urgent is it from 3 to 0!'))
+    notes = input('Additional notes? >> ')
+
+    ## Assiging the elements to a new task
+    task = Newtask(task_name, urgency_level, notes)
+    task.make(urgency_level, task_name)
+
+
+def task_nester(file):
+    with open(file, "r") as task_file:
+        task_dict = json.load(task_file)
+        for key ,value in task_dict.items():
+            for key2 ,value2 in value.items():
+                print('\n')
+                for key3, value3 in value2.items():
+                    print(key3, ':',value3)
+
+
+def all_tasks(tks='json'):
+        ## views all tasks
+        list_of_tasks = json_files
+        ## DON'T TRY TO UNDERSTAND THIS, IT'S MY FIRST ATTEMPT TO CODE ON MY OWN AND I HAVE NO BETTER IDEA.
+        for task in list_of_tasks:
+            if tks in task:
+                task_nester(task)
+
+
+def checking_task(task_to_check):
+    # list_of_tasks=[]
+    list_of_tasks = json_files
+    for task in list_of_tasks:
+            if task_to_check in task:
+                if path.exists(home+'/time_savior/Checked_tasks') == False:
+                    os.system('mkdir '+home+'/time_savior/Checked_tasks')
+
+                os.system('mv "{}" "{}/time_savior/Checked_tasks"'.format(task,home))
+                print('({}) ,has been checked succesfully!'.format(task))
+
+
+
+def open_task(task_to_open):
+    ## views a task
+    list_of_tasks = json_files
+
+    for task in list_of_tasks:
+        if task_to_open in task:
+            os.system('nano "{}"'.format(task))
+
+
+def delete_task(task_to_delete):
+    # list_of_tasks=[]
+    list_of_tasks = json_files
+    for task in list_of_tasks:
+            if task_to_delete in task:
+                os.remove(task)
+                print('({}) ,has been deleted succesfully!'.format(task))
+
+
+
+def timetracker():
+    over = False
+    print('Type quit whenever you want to exit.')
+    todays_date = dt.date.today()
+    day_month = f'{str(todays_date.day)}-{str(todays_date.month)}'
+    file_name = f'~/time_savior/time_tracker/{day_month}.json'
+    db = TinyDB(f'{home}/time_savior/time_tracker/{day_month}.json')
+    while not over:
+        task = input(" > ")
+        date_time = str(dt.datetime.now()).split('.')[0]
+        #day = date_time.split(' ')[0]
+        time = date_time.split(' ')[1].split(':') #['hours' ,'minutes', 'seconds']
+        final_time = time[0]+":"+time[1]
+        os.system(f'echo {final_time} ↩')
+        db.insert({task:final_time})
+        if task in "    quit    ":
+            over = True
+
+
+
+def time_savior():
+    ## Asking the user what to do.
+    answer = input('How can I help :D? \n')
+
+    if answer in "   new   ":
+        task_process()
+
+    elif answer in "   delete   ":
+        ## Getting a key word to delete the task.
+        ## WARNING: if the keyword is included in more than one task it will delete all the tasks that contains the keyword.
+        delete_task(input('Which task do you want to delete? \n'))
+
+
+    elif answer in "   check   ":
+        ## Getting a key word to delete the task.
+        ## WARNING: if the keyword is included in more than one task it will delete all the tasks that contains the keyword.
+        checking_task(input('Which task to check? \n'))
+
+
+    elif answer in "   tasks   ":
+        ## Renders all the tasks
+        all_tasks()
+
+    elif answer in "   open   ":
+        ## Opens a task and modefies it
+        open_task(input('Which task do you want to open? \n'))
+
+    elif answer in "   timer   ":
+        animedoro(int(input('For How long?')))
+
+    elif answer in "   journal   ":
+
+        # page_of_the_day =
+        Journal.new_page(input('What did you Accomblish! >>'),
+                        input('Any thing you should have not done? >>'),
+                        input('Any thing you should have done? >> '),
+                        input('Final thoughts. >>'),
+                        Journal.make_page())
+
+    elif answer in "   edit   ":
+
+        #opens the same day journal file
+        Journal.current_day(Journal.make_page())
+
+    elif answer in "    timetracker    ":
+        timetracker()
+
+    else:
+        ## I need to change this into a --help for the app
+        print('Sorry. Avaliable commands >> "tasks","delete","new","open","journal",\n"edit","check" and "timer".')
+
+
+
+
+
+time_savior()
+
+
+
+
+if True:
+    """
+    # os.remove('*/{}.json'.format(task_to_delete))
+    current_dir = os.getcwd()
+    # Renders all the tasks.
+    if os.path.isdir():
+    # os.system('touch {}.json'.format(task_directory+'/'+self.task_name))
+    os.system('cd {} && ls && cd ..'.format())
+    print(list(os.walk(folder)))/home/savior/TaskManag"""
+    # list_of_tasks = json_files
+    # for task in list_of_tasks:
+    #     print(task)
+    pass

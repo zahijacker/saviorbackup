@@ -45,6 +45,8 @@
 /home/savior/Audio/Assaf/#محمد_عساف_-_يابو_حسين__Mohammed_Assaf_-_Yabo_Hussein(256k).mp3
 /home/savior/Audio/Assaf/#محمد_عساف_-_يا_حلالي_يا_مالي__Mohammed_Assaf_-_Ya_Halali_Ya_Mali(256k).mp3
 /home/savior/Audio/DanceMonkey/TONES_AND_I_-_DANCE_MONKEY_(OFFICIAL_VIDEO)(256k).mp3
+/home/savior/Audio/Frank Sinatra - Greatest Hits (2008) [MP3~320Kbps]~[Hunter] [FRG]/Frank Sinatra - Greatest Hits/rainy night in paris.mp3
+/home/savior/Audio/Frank Sinatra - Greatest Hits (2008) [MP3~320Kbps]~[Hunter] [FRG]/Frank Sinatra - Greatest Hits/whenviolintalk.mp3
 /home/savior/Audio/Quran/ترتيل_بديع_من_الشيخ_ياسر_الدوسري_...mp3
 /home/savior/Audio/Random/Alan Walker - Fade.mp3
 /home/savior/Audio/Random/Cool_&_Calm,_Soft_&_Slow_Instrumental_Music_-_relaxdaily_N°079(256kbps).mp3
@@ -59,6 +61,13 @@
 /home/savior/Audio/Tigreal/go on sound the horn .ogg
 /home/savior/Audio/Tigreal/Slay them all .ogg
 /home/savior/Audio/Tigreal/Tigreal.death01.ogg
+/home/savior/Billie Eilish - Your Power (Official Music Video)-fzeWc3zh01g.mp4
+/home/savior/Downloads/Video/في عيون بتبكي _جورجيت الصايغ و الرحباني by Balkiss Mohamed Brahmi.mkv
+/home/savior/Frank Sinatra   I Love You Baby-AiIBKcd4m5Q.webm
+/home/savior/Freddie Mercury - The Great Pretender (Official Video Remastered)-mLRjFWDGs1g.webm
+/home/savior/Michael Jackson - Bad (Shortened Version)-dsUXAEzaC3Q.webm
+/home/savior/Michael Jackson - Billie Jean (Official Video)-Zi_XLOBDo_Y.webm
+/home/savior/Storage/saviordata/easy/spotify/rainy night in paris.mp3
 /home/savior/Audio/Quran/ناصر القطامي/044.mp3
 /home/savior/Audio/Quran/ناصر القطامي/051.mp3
 /home/savior/Audio/Quran/ناصر القطامي/046.mp3
@@ -94,6 +103,27 @@
 /home/savior/Audio/Quran/ناصر القطامي/050.mp3
 /home/savior/Audio/Quran/ناصر القطامي/036.mp3
 /home/savior/Audio/Random/8D Music - MajorLazer Cold Water R3hab  Vs Skytech  8D MUSIC.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/1 When We Were Young.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/2 Someone Like You.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/3 Don't You Remember.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/4 Melt My Heart To Stone.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/5 Hometown Glory.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/6 Love In The Dark.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/7 He Won't Go.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/8 Chasing Pavements.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/9 Million Years Ago.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/10 Make You Feel My Love.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/11 Crazy For You.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/12 Take It All.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/13 Remedy.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/14 Lovesong.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/15 First Love.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/16 One And Only.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/17 All I Ask.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/18 Daydreamer.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/19 Turning Tables.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/20 Set Fire To The Rain.mp3
+/home/savior/Audio/Adele - Adele Love Songs (2018) 320/21 Hello.mp3
 /home/savior/Audio/Quran/ناصر القطامي/023.mp3
 /home/savior/Audio/Quran/ناصر القطامي/003.mp3
 /home/savior/Audio/Quran/ناصر القطامي/033.mp3
@@ -237,6 +267,7 @@
 /home/savior/Audio/Frank Sinatra - Greatest Hits (2008) [MP3~320Kbps]~[Hunter] [FRG]/Frank Sinatra - Greatest Hits/CD2/29. Frank Sinatra - Goin' Out Of My Head.mp3
 /home/savior/Audio/Queen - Bohemian Rhapsody (The Original Soundtrack) (2018) [320]/01 - Freddie Mercury - Living On My Own.flac
 /home/savior/Audio/Queen - Bohemian Rhapsody (The Original Soundtrack) (2018) [320]/07 - Freddie Mercury - Time.flac
+/home/savior/iggy.mp3
 /home/savior/Audio/Quran/مشارى راشد العفاسى كامل/078.mp3
 /home/savior/Audio/Quran/ناصر القطامي/025.mp3
 /home/savior/Audio/Quran/ناصر القطامي/058.mp3
